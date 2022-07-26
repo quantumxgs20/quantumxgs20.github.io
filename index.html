@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./index.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+        <title>
+            Home | Quantum x GS20 
+        </title>
+        <link rel="icon" href="./quantumxgs20.png">
+        <style>
+            body {
+                /* background-color: ivory; */
+                background-image: linear-gradient(to top right, cornsilk, moccasin);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="navbar">
+            <a class="active" href="index.html">Home</a>
+            <a href="news.html">News</a>
+            <a href="buy.html">Purchase</a>
+            <a href="https://quantumxgs20.carrd.co">Social Medias</a>
+            <a href="about.html">About</a>
+        </div>
+
+        <div class="space"></div>
+
+        <div class="title">
+            <h1>Quantum x GS20</h1>
+        </div>
+
+        <div class="intro">
+            <p>
+
+            </p>
+        </div>
+
+        <div class="content" >
+            <div class="launch-time">
+                <h3>Countdown Pre-Order</h3> <br>
+                <h4>17 สิงหาคม 2565</h4> <br>
+                <div>
+                    <p id="days1">00</p>
+                    <span>Days</span>
+                </div>
+                <div>
+                    <p id="hours1">00</p>
+                    <span>Hours</span>
+                </div>
+                <div>
+                    <p id="minutes1">00</p>
+                    <span>Minutes</span>
+                </div>
+                <div>
+                    <p id="seconds1">00</p>
+                    <span>Seconds</span>
+                </div>
+            </div>
+
+        </div>
+        <script>
+            var countDownDate1 = new Date("Aug 17, 2022 00:00:00").getTime();
+            var x1 = setInterval(function(){
+                var now = new Date().getTime();
+                var distance1 = countDownDate1 - now;
+
+                var days1 = Math.floor(distance1 / (1000 * 60 * 60 * 24));
+                var hours1 = Math.floor((distance1 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes1 = Math.floor((distance1 % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds1 = Math.floor((distance1 % (1000 * 60)) / 1000);
+
+                document.getElementById("days1").innerHTML = days1;
+                document.getElementById("hours1").innerHTML = hours1;
+                document.getElementById("minutes1").innerHTML = minutes1;
+                document.getElementById("seconds1").innerHTML = seconds1;
+
+                if(distance2 < 0) {
+                    clearInterval(x1);
+                    document.getElementById("days1").innerHTML = days1;
+                    document.getElementById("hours1").innerHTML = hours1;
+                    document.getElementById("minutes1").innerHTML = minutes1;
+                    document.getElementById("seconds1").innerHTML = seconds1;
+                }
+            },  1000);
+
+        </script>
+<!------------------------------------------------------------------------------------------------------------------>
+        <div class="content">
+            <div class="launch-time">
+                <h3>Countdown วันสอบ</h3>
+                <div>
+                    <p id="days2">00</p>
+                    <span>Days</span>
+                </div>
+                <div>
+                    <p id="hours2">00</p>
+                    <span>Hours</span>
+                </div>
+                <div>
+                    <p id="minutes2">00</p>
+                    <span>Minutes</span>
+                </div>
+                <div>
+                    <p id="seconds2">00</p>
+                    <span>Seconds</span>
+                </div>
+            </div>
+        
+        </div>
+        <script>
+            var countDownDate2 = new Date("Mar 4, 2023 09:00:00").getTime();
+            var x2 = setInterval(function(){
+                var now = new Date().getTime();
+                var distance2 = countDownDate2 - now;
+            
+                var days2 = Math.floor(distance2 / (1000 * 60 * 60 * 24));
+                var hours2 = Math.floor((distance2 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes2 = Math.floor((distance2 % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds2 = Math.floor((distance2 % (1000 * 60)) / 1000);
+            
+                document.getElementById("days2").innerHTML = days2;
+                document.getElementById("hours2").innerHTML = hours2;
+                document.getElementById("minutes2").innerHTML = minutes2;
+                document.getElementById("seconds2").innerHTML = seconds2;
+                
+                if(distance2 < 0) {
+                    clearInterval(x2);
+                    document.getElementById("days2").innerHTML = days2;
+                    document.getElementById("hours2").innerHTML = hours2;
+                    document.getElementById("minutes2").innerHTML = minutes2;
+                    document.getElementById("seconds2").innerHTML = seconds2;
+                }
+
+            }, 1000);
+        
+        </script>
+    </body>
+</html>

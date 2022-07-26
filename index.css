@@ -1,0 +1,109 @@
+.head {
+   font-family: IBM Plex Sans Thai;
+}
+
+.body {
+   font-family: TH SarabunPSK;
+}
+
+/* Add a black background color to the top navigation */
+.navbar {
+   background-color: #071740;
+   overflow: hidden;
+   position: fixed;
+   top : 0;
+   left: 0;
+   width: 100%;
+ }
+ 
+ /* Style the links inside the navigation bar */
+ .navbar a {
+   float: left;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+ }
+ 
+ /* Change the color of links on hover */
+ .navbar a:hover {
+   background-color: #ddd;
+   color: black;
+ }
+ 
+ /* Add a color to the active/current link */
+ .navbar a.active {
+   background-color: #04AA6D;
+   color: white;
+ }
+
+ /* style the text CURRENTLY UNDER HEAVY DEVELOPMENT*/
+ .indev {
+   position: relative;
+ }
+
+ /*space division*/
+ .space {
+   height: 20px;
+ }
+
+ /*quantumxgs20 title in home page*/
+ .title {
+   position: relative;
+   text-align: center;
+   font-family: TH SarabunPSK;
+   font-size: 30px;
+   font-style: bold;
+ }
+
+ /*countdown timer*/
+ .countdown {
+   position: relative;
+   text-align: center;
+   font-size: 30px;
+ }
+
+ .cdpreordertitle {
+   font-size: 24p
+ }
+
+.day {
+   font-size: .875rem;
+   position: relative;
+   
+ }
+
+ .content{
+    top: 50%;
+    position: center;
+    transform: translateY(-50%);
+    color: black;
+ }
+
+ .content h1{
+    font-size: 64px;
+    font-weight: 600;
+ }
+
+ .content h3 {
+   font-size:20px;
+   font-weight: 600;
+   text-align: center;
+ }
+
+ .launch-time{
+    display: flex;
+
+ }
+
+ .launch-time div{
+  flex-basis: 130px;
+
+}
+
+.launch-time div p{
+  font-size: 60px;
+  margin-bottom: -14px;
+
+}
