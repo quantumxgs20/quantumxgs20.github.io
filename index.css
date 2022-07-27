@@ -123,3 +123,13 @@
 .content h1 span{
   color: #ff3753;
 }
+
+.container p{
+  font-size:48px;
+  font-weight: 60;
+}
+
+img.quantumlogofront {
+  max-height: 12vh;
+  padding: 10px;
+}

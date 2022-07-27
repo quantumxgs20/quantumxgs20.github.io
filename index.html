@@ -6,144 +6,80 @@
         <link rel="stylesheet" href="./index.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+        <link href="style.css" rel="stylesheet" type="text/class">
         <title>
-            Home | Quantum x GS20 
+            TEST | Quantum x GS20 
         </title>
         <link rel="icon" href="./quantumxgs20.png">
         <style>
             body {
-                background-image: linear-gradient(to top right, cornsilk, moccasin);
+                /* background-color: ivory; */
+                background-image: url(./background.png);
                 background-repeat: no-repeat;
                 background-attachment: fixed;
                 background-size: cover;
+                position: center;
+
+                
+ 
+                
             }
         </style>
     </head>
     
     <body>
-        <div class="navbar">
-            <a class="active" href="index.html">Home</a>
-            <a href="news.html">News</a>
-            <a href="buy.html">Purchase</a>
-            <a href="https://quantumxgs20.carrd.co">Social Medias</a>
-            <a href="about.html">About</a>
-            <a href="front.html">TEST</a>
-        </div>
-
-        <div class="space"></div>
-
-        <div class="title">
-            <h1>Quantum x GS20</h1><br>
-        </div>
-
-        <div class="intro">
-            <p>
-                Quantum x GS20 (n.) A Book which leads the way to 'Triam Udom Suksa School' made by Gifted Science 20 Triam Udom 85 students.
-            </p>
-        </div>
-
-
-        <div class="content" >
-            <div style="height: 80px;"></div>
-            <div>Countdown Pre-Order</div>
-            <div>17 สิงหาคม 2565</div>
-            <div class="launch-time">
-                <div>
-                    <p id="days1">00</p>
-                    <span>Days</span>
-                </div>
-                <div>
-                    <p id="hours1">00</p>
-                    <span>Hours</span>
-                </div>
-                <div>
-                    <p id="minutes1">00</p>
-                    <span>Minutes</span>
-                </div>
-                <div>
-                    <p id="seconds1">00</p>
-                    <span>Seconds</span>
-                </div>
+    <div position="center">
+        <div class="container">
+            <image class="quantumlogofront" src="./quantumxgs20.png" alt="quantumxgs20 logo"></image>
+            <h3 style="font-style: italic;">Website is under development</h3>
+            <h1>We are <span style="color:rgb(243, 68, 68 )">Launching</span> soon</h1>
+            <!-- <a style="font-size: 20px; color:Tomato;" href="index.html">Go to Website</a> -->
+        </div> 
+        <div class="launch-time">
+            <div>
+                <p id="days1">00</p>
+                <span>Days</span>
             </div>
-
+            <div>
+                <p id="hours1">00</p>
+                <span>Hours</span>
+            </div>
+            <div>
+                <p id="minutes1">00</p>
+                <span>Minutes</span>
+            </div>
+            <div>
+                <p id="seconds1">00</p>
+                <span>Seconds</span>
+            </div>
         </div>
-        <script>
-            var countDownDate1 = new Date("Aug 17, 2022 00:00:00").getTime();
-            var x1 = setInterval(function(){
-                var now = new Date().getTime();
-                var distance1 = countDownDate1 - now;
+    </div>    
+    </div>
+    <script>
+        var countDownDate1 = new Date("Aug 3, 2022 16:00:00").getTime();
+        var x1 = setInterval(function(){
+            var now = new Date().getTime();
+            var distance1 = countDownDate1 - now;
 
-                var days1 = Math.floor(distance1 / (1000 * 60 * 60 * 24));
-                var hours1 = Math.floor((distance1 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                var minutes1 = Math.floor((distance1 % (1000 * 60 * 60)) / (1000 * 60));
-                var seconds1 = Math.floor((distance1 % (1000 * 60)) / 1000);
+            var days1 = Math.floor(distance1 / (1000 * 60 * 60 * 24));
+            var hours1 = Math.floor((distance1 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes1 = Math.floor((distance1 % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds1 = Math.floor((distance1 % (1000 * 60)) / 1000);
 
+            document.getElementById("days1").innerHTML = days1;
+            document.getElementById("hours1").innerHTML = hours1;
+            document.getElementById("minutes1").innerHTML = minutes1;
+            document.getElementById("seconds1").innerHTML = seconds1;
+
+            if(distance1 < 0) {
+                clearInterval(x1);
                 document.getElementById("days1").innerHTML = days1;
                 document.getElementById("hours1").innerHTML = hours1;
                 document.getElementById("minutes1").innerHTML = minutes1;
                 document.getElementById("seconds1").innerHTML = seconds1;
+            }
+        },  1000);
 
-                if(distance2 < 0) {
-                    clearInterval(x1);
-                    document.getElementById("days1").innerHTML = days1;
-                    document.getElementById("hours1").innerHTML = hours1;
-                    document.getElementById("minutes1").innerHTML = minutes1;
-                    document.getElementById("seconds1").innerHTML = seconds1;
-                }
-            },  1000);
-
-        </script>
-<!------------------------------------------------------------------------------------------------------------------>
-        <div class="content">
-            <div style="height: 80px;"></div>
-            <div>Countdown วันสอบ</div>
-            <div>4 มีนาคม 2566</div>
-            <div class="launch-time">
-                <div>
-                    <p id="days2">00</p>
-                    <span>Days</span>
-                </div>
-                <div>
-                    <p id="hours2">00</p>
-                    <span>Hours</span>
-                </div>
-                <div>
-                    <p id="minutes2">00</p>
-                    <span>Minutes</span>
-                </div>
-                <div>
-                    <p id="seconds2">00</p>
-                    <span>Seconds</span>
-                </div>
-            </div>
-        
-        </div>
-        <script>
-            var countDownDate2 = new Date("Mar 4, 2023 09:00:00").getTime();
-            var x2 = setInterval(function(){
-                var now = new Date().getTime();
-                var distance2 = countDownDate2 - now;
-            
-                var days2 = Math.floor(distance2 / (1000 * 60 * 60 * 24));
-                var hours2 = Math.floor((distance2 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                var minutes2 = Math.floor((distance2 % (1000 * 60 * 60)) / (1000 * 60));
-                var seconds2 = Math.floor((distance2 % (1000 * 60)) / 1000);
-            
-                document.getElementById("days2").innerHTML = days2;
-                document.getElementById("hours2").innerHTML = hours2;
-                document.getElementById("minutes2").innerHTML = minutes2;
-                document.getElementById("seconds2").innerHTML = seconds2;
-                
-                if(distance2 < 0) {
-                    clearInterval(x2);
-                    document.getElementById("days2").innerHTML = days2;
-                    document.getElementById("hours2").innerHTML = hours2;
-                    document.getElementById("minutes2").innerHTML = minutes2;
-                    document.getElementById("seconds2").innerHTML = seconds2;
-                }
-
-            }, 1000);
-        
-        </script>
+    </script>
     </body>
 </html>
