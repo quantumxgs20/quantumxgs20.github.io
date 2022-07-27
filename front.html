@@ -4,7 +4,6 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./index.css">
-        <link rel="stylesheet" href="./reset.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
         <link href="style.css" rel="stylesheet" type="text/class">
@@ -32,34 +31,31 @@
     <div position="center">
         <div class="container">
             <image class="quantumlogofront" src="./quantumxgs20.png" alt="quantumxgs20 logo"></image>
-            <p style="font-style: italic; font-weight:200px; font-size:20px;">Website is under development</p>
-            <p style="font-size: 80px;">We are <span style="color:rgb(243, 68, 68 )">Launching</span> soon</p>
+            <h3 style="font-style: italic;">Website is under development</h3>
+            <h1>We are <span style="color:rgb(243, 68, 68 )">Launching</span> soon</h1>
             <!-- <a style="font-size: 20px; color:Tomato;" href="index.html">Go to Website</a> -->
-        </div> 
-
-        <div class="launch-time">
-            <div>
-                <p id="days1">00</p>
-                <span>Days</span>
+         
+            <div class="launch-time">
+                <div>
+                    <p id="days1">00</p>
+                    <span>Days</span>
+                </div>
+                <div>
+                    <p id="hours1">00</p>
+                    <span>Hours</span>
+                </div>
+                <div>
+                    <p id="minutes1">00</p>
+                    <span>Minutes</span>
+                </div>
+                <div>
+                    <p id="seconds1">00</p>
+                    <span>Seconds</span>
+                </div>
             </div>
-
-            <div>
-                <p id="hours1">00</p>
-                <span>Hours</span>
-            </div>
-
-            <div>
-                <p id="minutes1">00</p>
-                <span>Minutes</span>
-            </div>
-
-            <div>
-                <p id="seconds1">00</p>
-                <span>Seconds</span>
-            </div>
-
-        </div>  <!--end of launch time-->
-    </div> <!--end of center-->
+        </div>    
+        </div>
+    </div>
     <script>
         var countDownDate1 = new Date("Aug 3, 2022 16:00:00").getTime();
         var x1 = setInterval(function(){
@@ -86,5 +82,6 @@
         },  1000);
 
     </script>
+    
     </body>
 </html>

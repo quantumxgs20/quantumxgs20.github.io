@@ -92,20 +92,21 @@
 
  .launch-time{
     display: flex;
-    margin: 0 auto;
-    padding-left: 100px;
+    margin: 0;
+    padding-left: 120px;
     
  }
 
  .launch-time div{
   flex-basis: 130px;
   width: 100px;
-
+  margin: 0;
 }
 
 .launch-time div p{
   font-size: 60px;
   margin-bottom: -14px;
+  margin: 0;
 }
 
 .container{
@@ -118,6 +119,7 @@
 .content h1{
   font-size: 64px;
   font-weight: 600;
+  margin: 0;
 }
 
 .content h1 span{
@@ -127,6 +129,7 @@
 .container p{
   font-size:48px;
   font-weight: 600;
+  margin: 0; /*a god line of code*/
 }
 
 img.quantumlogofront {
