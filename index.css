@@ -93,11 +93,13 @@
  .launch-time{
     display: flex;
     margin: 0 auto;
+    padding-left: 100px;
+    
  }
 
  .launch-time div{
   flex-basis: 130px;
-  width: 130px;
+  width: 100px;
 
 }
 
@@ -111,8 +113,6 @@
   height:v 100vh;
   padding:0 8%;
   position: relative;
-
-
 }
 
 .content h1{
@@ -126,7 +126,7 @@
 
 .container p{
   font-size:48px;
-  font-weight: 60;
+  font-weight: 600;
 }
 
 img.quantumlogofront {
