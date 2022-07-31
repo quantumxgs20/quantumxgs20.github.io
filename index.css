@@ -1,56 +1,57 @@
 .head {
-   font-family: IBM Plex Sans Thai;
+    font-family: IBM Plex Sans Thai;
 }
 
 .body {
-   font-family: TH SarabunPSK;
+    font-family: TH SarabunPSK;
 }
 
 /* Add a black background color to the top navigation */
 .navbar {
-   background-color: #071740;
-   overflow: hidden;
-   position: fixed;
-   top : 0;
-   left: 0;
-   width: 100%;
- }
- 
- /* Style the links inside the navigation bar */
- .navbar a {
-   float: left;
-   color: #f2f2f2;
-   text-align: center;
-   padding: 14px 16px;
-   text-decoration: none;
-   font-size: 17px;
- }
- 
- /* Change the color of links on hover */
- .navbar a:hover {
-   background-color: #ddd;
-   color: black;
- }
- 
- /* Add a color to the active/current link */
- .navbar a.active {
-   background-color: #04AA6D;
-   color: white;
- }
-
-.intro {
-   font-size: 24px;
+    background-color: #071740;
+    overflow: hidden;
+    position: sticky;
+    top : 0;
+    left: 0;
+    margin : 0;
+    width: 100%;
 }
 
- /* style the text CURRENTLY UNDER HEAVY DEVELOPMENT*/
- .indev {
-   position: relative;
- }
+ /* Style the links inside the navigation bar */
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
 
- /*space division*/
- .space {
-   height: 20px;
- }
+ /* Change the color of links on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+ /* Add a color to the active/current link */
+.navbar a.active {
+    background-color: #928259;
+    color: white;
+}
+
+.intro {
+    font-size: 24px;
+}
+
+/* style the text CURRENTLY UNDER HEAVY DEVELOPMENT*/
+.indev {
+    position: relative;
+}
+
+/*space division*/
+.space {
+    height: 20px;
+}
 
  /*quantumxgs20 title in home page*/
  .title {
