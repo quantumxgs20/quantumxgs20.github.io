@@ -36,7 +36,7 @@
         <div class="title">
             <h1>Quantum x GS20</h1><br>
         </div>
-
+    <!----------------------------------------------------------------------------------------------------->
         <div class="intro">
             <p>
                 &nbsp; &nbsp; &nbsp; &nbsp;  Quantum x GS20 (n.) 
@@ -45,7 +45,7 @@
         </div>
         
         <div style="height: 120px;"></div>
-
+    <!----------------------------------------------------------------------------------------------------->
         <div class="content" >
             <div style="height: 80px;"></div>
             <div>Countdown Pre-Order</div>
@@ -68,7 +68,6 @@
                     <span>Seconds</span>
                 </div>
             </div>
-
         </div>
         <script>
             var countDownDate1 = new Date("Aug 14, 2022 10:30:00").getTime();
@@ -96,7 +95,58 @@
             },  1000);
             
         </script>
-<!------------------------------------------------------------------------------------------------------------------>
+    <!----------------------------------------------------------------------------------------------------->
+        <div class="content">
+        <div style="height: 80px;"></div>
+        <div>Countdown วันสอบมหิดลวิทยานุสรณ์</div>
+        <div>20 พฤศจิกายน 2565</div>
+        <div class="launch-time">
+        <div>
+            <p id="days3">00</p>
+            <span>Days</span>
+        </div>
+        <div>
+            <p id="hours3">00</p>
+            <span>Hours</span>
+        </div>
+        <div>
+            <p id="minutes3">00</p>
+            <span>Minutes</span>
+        </div>
+        <div>
+            <p id="seconds3">00</p>
+            <span>Seconds</span>
+        </div>
+    </div>
+</div>
+<script>
+    var countDownDate3 = new Date("Nov 20, 2022 09:00:00").getTime();
+    var x3 = setInterval(function() {
+        var now = new Date().getTime();
+        var distance3 = countDownDate3 - now;
+    
+        var days3 = Math.floor(distance3 / (1000 * 60 * 60 * 24));
+        var hours3 = Math.floor((distance3 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes3 = Math.floor((distance3 % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds3 = Math.floor((distance3 % (1000 * 60)) / 1000);
+    
+        document.getElementById("days3").innerHTML = days3;
+        document.getElementById("hours3").innerHTML = hours3;
+        document.getElementById("minutes3").innerHTML = minutes3;
+        document.getElementById("seconds3").innerHTML = seconds3;
+        
+        if(distance3 < 0) {
+            clearInterval(x3);
+            document.getElementById("days3").innerHTML = days3;
+            document.getElementById("hours3").innerHTML = hours3;
+            document.getElementById("minutes3").innerHTML = minutes3;
+            document.getElementById("seconds3").innerHTML = seconds3;
+        }
+
+    }, 1000);
+
+    </script>
+    <!----------------------------------------------------------------------------------------------------->
         <div class="content">
             <div style="height: 80px;"></div>
             <div>Countdown วันสอบเตรียมอุดมฯ</div>
@@ -148,57 +198,6 @@
             }, 1000);
         
         </script>
-        <!---------------------------------------------------------------------------------------------->
-        <div class="content">
-            <div style="height: 80px;"></div>
-            <div>Countdown วันสอบมหิดลวิทยานุสรณ์</div>
-            <div>20 พฤศจิกายน 2565</div>
-            <div class="launch-time">
-                <div>
-                    <p id="days3">00</p>
-                    <span>Days</span>
-                </div>
-                <div>
-                    <p id="hours3">00</p>
-                    <span>Hours</span>
-                </div>
-                <div>
-                    <p id="minutes3">00</p>
-                    <span>Minutes</span>
-                </div>
-                <div>
-                    <p id="seconds3">00</p>
-                    <span>Seconds</span>
-                </div>
-            </div>
-        
-        </div>
-        <script>
-            var countDownDate3 = new Date("Nov 20, 2022 09:00:00").getTime();
-            var x3 = setInterval(function() {
-                var now = new Date().getTime();
-                var distance3 = countDownDate3 - now;
-            
-                var days3 = Math.floor(distance3 / (1000 * 60 * 60 * 24));
-                var hours3 = Math.floor((distance3 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                var minutes3 = Math.floor((distance3 % (1000 * 60 * 60)) / (1000 * 60));
-                var seconds3 = Math.floor((distance3 % (1000 * 60)) / 1000);
-            
-                document.getElementById("days3").innerHTML = days3;
-                document.getElementById("hours3").innerHTML = hours3;
-                document.getElementById("minutes3").innerHTML = minutes3;
-                document.getElementById("seconds3").innerHTML = seconds3;
-                
-                if(distance3 < 0) {
-                    clearInterval(x3);
-                    document.getElementById("days3").innerHTML = days3;
-                    document.getElementById("hours3").innerHTML = hours3;
-                    document.getElementById("minutes3").innerHTML = minutes3;
-                    document.getElementById("seconds3").innerHTML = seconds3;
-                }
-
-            }, 1000);
-        
-        </script>
+    <!----------------------------------------------------------------------------------------------------->
     </body>
 </html>
