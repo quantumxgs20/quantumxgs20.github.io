@@ -18,30 +18,33 @@
                 background-size: cover;
             }
         </style>
+            <navbar>
+                <div class="navbar">
+                    <ul>
+                        <li><a class="active" href="home.html">Home</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="buy.html">Purchase</a></li>
+                        <li><a href="https://quantumxgs20.carrd.co">Social Medias</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="index.html">Landing Page (For Testing Purposes Only)</a></li>
+                    </ul>
+                </div>
+            </navbar>
     </head>
-    
+
     <body>
-        <div class="navbar">
-            <a class="active" href="home.html">Home</a>
-            <a href="news.html">News</a>
-            <a href="buy.html">Purchase</a>
-            <a href="https://quantumxgs20.carrd.co">Social Medias</a>
-            <a href="about.html">About</a>
-            <a href="index.html">Landing Page (For Testing Purposes Only)</a>
-        </div>
-
-        <div class="space"></div>
-
         <div class="title">
             <h1>Quantum x GS20</h1><br>
         </div>
 
         <div class="intro">
             <p>
-                Quantum x GS20 (n.) A Book which leads the way to 'Triam Udom Suksa School' made by Gifted Science 20 Triam Udom 85 students.
+                &nbsp; &nbsp; &nbsp; &nbsp;  Quantum x GS20 (n.) 
+                <br>&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;A Book which leads the way to 'Triam Udom Suksa School'  made by Gifted Science 20 Triam Udom 85 students.
             </p>
         </div>
-
+        
+        <div style="height: 120px;"></div>
 
         <div class="content" >
             <div style="height: 80px;"></div>
@@ -96,7 +99,7 @@
 <!------------------------------------------------------------------------------------------------------------------>
         <div class="content">
             <div style="height: 80px;"></div>
-            <div>Countdown วันสอบ</div>
+            <div>Countdown วันสอบเตรียมอุดมฯ</div>
             <div>4 มีนาคม 2566</div>
             <div class="launch-time">
                 <div>
@@ -140,6 +143,58 @@
                     document.getElementById("hours2").innerHTML = hours2;
                     document.getElementById("minutes2").innerHTML = minutes2;
                     document.getElementById("seconds2").innerHTML = seconds2;
+                }
+
+            }, 1000);
+        
+        </script>
+        <!---------------------------------------------------------------------------------------------->
+        <div class="content">
+            <div style="height: 80px;"></div>
+            <div>Countdown วันสอบมหิดลวิทยานุสรณ์</div>
+            <div>20 พฤศจิกายน 2565</div>
+            <div class="launch-time">
+                <div>
+                    <p id="days3">00</p>
+                    <span>Days</span>
+                </div>
+                <div>
+                    <p id="hours3">00</p>
+                    <span>Hours</span>
+                </div>
+                <div>
+                    <p id="minutes3">00</p>
+                    <span>Minutes</span>
+                </div>
+                <div>
+                    <p id="seconds3">00</p>
+                    <span>Seconds</span>
+                </div>
+            </div>
+        
+        </div>
+        <script>
+            var countDownDate3 = new Date("Nov 20, 2022 09:00:00").getTime();
+            var x3 = setInterval(function() {
+                var now = new Date().getTime();
+                var distance3 = countDownDate3 - now;
+            
+                var days3 = Math.floor(distance3 / (1000 * 60 * 60 * 24));
+                var hours3 = Math.floor((distance3 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes3 = Math.floor((distance3 % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds3 = Math.floor((distance3 % (1000 * 60)) / 1000);
+            
+                document.getElementById("days3").innerHTML = days3;
+                document.getElementById("hours3").innerHTML = hours3;
+                document.getElementById("minutes3").innerHTML = minutes3;
+                document.getElementById("seconds3").innerHTML = seconds3;
+                
+                if(distance3 < 0) {
+                    clearInterval(x3);
+                    document.getElementById("days3").innerHTML = days3;
+                    document.getElementById("hours3").innerHTML = hours3;
+                    document.getElementById("minutes3").innerHTML = minutes3;
+                    document.getElementById("seconds3").innerHTML = seconds3;
                 }
 
             }, 1000);
