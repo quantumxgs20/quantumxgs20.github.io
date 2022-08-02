@@ -107,21 +107,24 @@
     padding: 60px;
     align-items: center;
     justify-content: center;
+    color: white;
 }
 
 .launch-time div{
   flex-basis: 130px;
   width: 100px;
   margin: 0;
+  color: white;
 }
 
 .launch-time div p{
   font-size: 60px;
   margin-bottom: -14px;
   margin: 0;
+  color: white;
 }
 
-.launch-time2 {
+/* .launch-time2 {
   display: flex;
   margin: 0;
   padding-left: 110px; 
@@ -139,7 +142,7 @@
   margin-bottom: -14px;
   margin: 0;
   color: white;
-}
+} */
 
 .container{
   width: 100vw;
