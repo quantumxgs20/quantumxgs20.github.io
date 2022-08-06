@@ -9,10 +9,17 @@
         <title>
             Home | Quantum x GS20 
         </title>
+        <script type="text/javascript">
+            window.onload = function() {
+                document.getElementById('button').onclick = function() {
+                    document.getElementById('modalOverlay').style.display = 'none'
+                };
+            };
+        </script>
         <link rel="icon" href="./quantumxgs20.png">
         <style>
             body {
-                background-image: url(./websitebg.jpg);
+                background-image: url(./website_bg_new.jpg);
                 background-repeat: no-repeat;
                 background-attachment: fixed;
                 background-size: cover;
@@ -28,23 +35,55 @@
                         <li><a href="about.html">About</a></li>
                         <li><a href="index.html">Landing Page (For Testing Purposes Only)</a></li>
                     </ul>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                    <a class="quantumlogofront" href="home.html"><image src="./quantumxgs20.png" class="quantumlogohome"></image></a>
                 </div>
+                
             </navbar>
+            
     </head>
 
     <body>
-        <div class="title">
-            <h1>Quantum x GS20</h1><br>
+        <div id="modalOverlay">
+            <div class="modalPopup">
+                <div class="headerBar">
+                    <h1>Quantum x GS20</h1>
+                </div>
+                <div class="modalContent">
+                        <h1>Notice</h1>
+                        <p>It is best and recommended to use the website on computers. Bugs/Problems might be experienced for mobile or iPad users. Sorry for the inconvenience.</p>
+                        <button class="buttonStyle" id="button">Close</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+        <div>
+            <h1 class="title">Quantum x GS20</h1><br>
         </div>
     <!----------------------------------------------------------------------------------------------------->
         <div class="intro">
             <p>
-                &nbsp; &nbsp; &nbsp; &nbsp;  Quantum x GS20 (n.) 
-                <br>&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;A Book which leads the way to 'Triam Udom Suksa School'  made by Gifted Science 20 Triam Udom 85 students.
+                <div class="space-in-text"></div>
+                <br>&nbsp; &nbsp; &nbsp; &nbsp; สิ้นสุดการรอคอย....
+                <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; สำหรับน้องๆว่าที่ TU ทุกคน
+                <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; เตรียมตัวพับกบ เอ้ย พบกับ เอ้ย ถูกแล้ว! หนังสือดี มีคุณภาพ หนังสือที่จะทำให้น้องๆ ก้าวเข้าสู่โรงเรียนเตรียมอุดมได้อย่างมั่นใจ
+                <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; หนังสือ QuanTUm x GS20 ซึ่งจัดทำขึ้นโดยรุ่นพี่จากโครงการพัฒนาศักยภาพนักเรียนที่มีความสามารถพิเศษด้านวิทยาศาสตร์ รุ่นที่ 20 
+                <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; โรงเรียนเตรียมอุดมศึกษา หรือ โครงการกิฟต์วิทย์ รุ่นที่ 20 (Gifted Science 20 / GS20)
+                <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; โดยหนังสือจะมีทั้งหมด 2 เล่ม
+                <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; เล่ม 1 : Quantum I
+                <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; เล่ม 2 : Quantum II
+                <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ในหนังสือจะประกอบไปด้วย
+                <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - เนื้อหาเข้มข้นของวิชาคณิตศาสตร์ วิทยาศาสตร์ และภาษาอังกฤษ
+                <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - โจทย์ท้ายบทของแต่ละเรื่อง เพื่อเน้นย้ำความเข้าใจของน้องๆ
+                <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - ข้อสอบเสมือนจริง ในแต่ละวิชาทั้งหมด 3 ชุด พร้อมเฉลยละเอียด
+                <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - พิเศษสุด บทสัมภาษณ์การเตรียมตัวและเคล็ดลับสอบเข้าโรงเรียนเตรียมอุดมศึกษา จากรุ่นพี่ GS20
+                <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;โดยเราจะทำการเปิดพรีออเดอร์รอบแรกในวันที่ 17 สิงหาคม 2565
+                <br><div class="space"></div>
             </p>
         </div>
-        
-        <div style="height: 120px;"></div>
+        <!--Code Readability = 0-->
+        <div style="height: 50px;"></div>
     <!----------------------------------------------------------------------------------------------------->
         <div class="content" >
             <div style="height: 80px;"></div>
