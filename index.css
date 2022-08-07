@@ -64,7 +64,7 @@
     font-size: 28px;
     font-weight: 520;
     color: white;
-    font-family: FreesiaUPC;
+    font-family: CordiaUPC;
     background-color: rgba(220, 144, 127, 0.4);
     border-radius: 40px;
 }
@@ -93,13 +93,13 @@
 .title-2 {
   font-size: 36px;
   color: white;
-}
+} /*requires attention*/
 
 .sponsor {
   font-size: 28px;
   font-weight: 450px;
   color: white;
-}
+} /*requires attention*/
 
 /*countdown timer*/
 .countdown {
