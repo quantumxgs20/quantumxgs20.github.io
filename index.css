@@ -64,7 +64,7 @@
     font-size: 28px;
     font-weight: 520;
     color: white;
-    font-family: CordiaUPC;
+    font-family: TH SarabunPSK;
     background-color: rgba(220, 144, 127, 0.4);
     border-radius: 40px;
 }
@@ -81,7 +81,7 @@
 /*quantumxgs20 title in home page*/
 .title {
     text-align: center;
-    font-family: IBM Plex Sans Thai;
+    font-family: Trebuchat MS;
     font-size: 60px;
     font-style: italic;
     font-weight: 600;
@@ -91,15 +91,29 @@
 }
 
 .title-2 {
+  text-align: left;
+  font-family: Trebuchet MS;
   font-size: 36px;
   color: white;
-} /*requires attention*/
+  margin: 0;
+  padding-top: 5px;
+}
+
+.title-3 {
+  text-align: left;
+  font-family: Trebuchet MS;
+  font-size: 24px;
+  color: white;
+  margin: 0;
+}
 
 .sponsor {
-  font-size: 28px;
-  font-weight: 450px;
-  color: white;
-} /*requires attention*/
+  text-align: center;
+  padding: 3px;
+  font-size: 12px;
+  background-color: rgb(185, 251, 240);
+  color: black;
+}
 
 /*countdown timer*/
 .countdown {
