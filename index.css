@@ -58,6 +58,58 @@ body {
     color: white;
 }
 
+.footer {
+    background-color: #333;
+    color: #efefef;
+    position: relative;
+    margin-top: 150px;
+    width: 100%;  
+    display: flex;
+}
+
+.footer div {
+  text-align: center;
+}
+
+.footer div h3 {
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  font-size: 24px;
+}
+
+.col-1 {
+  margin-left: 200px;
+}
+
+.col-2 {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.col-3 {
+  margin-right: 200px;
+}
+
+.col-1 a {
+  display: block;
+  text-decoration: none;
+  color: #efefef;
+  margin-bottom:  10px;
+  font-size: 20px;
+}
+
+.col-2 a {
+  text-decoration: none;
+  color: #efefef;
+  margin-bottom:  10px;
+  font-size: 20px;
+}
+
+.indev {
+  padding-bottom: 40px;
+}
+
 .intro {
     font-size: 28px;
     font-weight: 520;
@@ -115,13 +167,22 @@ body {
   margin: 0;
 }
 
+.ref {
+  text-align: center;
+  font-family: Trebuchet MS;
+  font-size: 24px;
+  color: white;
+  margin: 0;
+  padding-top: 0px;
+}
+
 .sponsor {
   font-family: TH SarabunPSK;
   border-radius: 15px;
   text-align: center;
   padding: 3px;
   font-size: 16px;
-  background-image: url(./);
+  background-image: url(./background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -134,7 +195,9 @@ body {
 }
 
 .sponsor-title {
-  font-size: 20px;
+  font-size: 36px;
+  padding-left: 20px;
+  text-align: start;
 }
 
 /*countdown timer*/
@@ -230,10 +293,11 @@ body {
 img.mathlogik {
   max-height: 20vh;
   padding-left: 40px;
+  border-radius: 10px;
 }
 
 img.quantumlogofront {
-  max-height: 12vh;
+  max-height: 14vh;
   padding: 10px;
 }
 
