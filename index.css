@@ -65,7 +65,8 @@ body {
     font-family: TH SarabunPSK;
     background-color: rgba(26, 157, 135, 0.4);
     border-radius: 40px;
-    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .intro p {
@@ -97,12 +98,13 @@ body {
 }
 
 .title-2 {
-  text-align: left;
+  text-align: center;
   font-family: Trebuchet MS;
   font-size: 36px;
   color: white;
   margin: 0;
-  padding-top: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .title-3 {
@@ -119,12 +121,20 @@ body {
   text-align: center;
   padding: 3px;
   font-size: 16px;
-  background-color: rgba(43, 160, 141, 0.45);
+  background-image: url(./);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   color: white;
+  margin: 10px;
 }
 
 .sponsor p {
   text-align: start;
+}
+
+.sponsor-title {
+  font-size: 20px;
 }
 
 /*countdown timer*/
@@ -181,22 +191,23 @@ body {
 }
 
 .launch-time-2 div {
-flex-basis: 130px;
-width: 100px;
-margin: 0;
-color: #fce2d8
+  font-size: 20px;
+  flex-basis: 130px;
+  width: 100px;
+  margin: 0;
+  color: #fce2d8
 }
 
 .launch-time-2 div p {
-font-size: 60px;
-margin-bottom: -14px;
-margin: 0;
-color: #f5e8e4;
+  font-size: 80px;
+  margin-bottom: -14px;
+  margin: 0;
+  color: #f5e8e4;
 }
 
 .container{
   width: 100vw;
-  height:v 100vh;
+  height: 40vh;
   padding:0 8%;
 }
 
@@ -214,6 +225,11 @@ color: #f5e8e4;
   font-size:48px;
   font-weight: 600;
   margin: 0;
+}
+
+img.mathlogik {
+  max-height: 20vh;
+  padding-left: 40px;
 }
 
 img.quantumlogofront {
@@ -244,8 +260,6 @@ img.newsbannersq {
   width: 35%;
   padding-top: 30px;
 }
-
-
 
 img.qtbookcv {
   display: flex;
@@ -352,4 +366,3 @@ p {
 .returnToProfile {text-align: center; margin:3em;}
 .returnToProfile a, .returnToProfile a:visited {color: #ddd;}
 .returnToProfile a:hover {color: #fff;}
-
