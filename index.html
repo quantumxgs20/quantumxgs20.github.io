@@ -25,60 +25,10 @@
     <body>
     <div position="center">
         <div class="container">
-            <a href="home.html"></a> 
             <image class="quantumlogofront" src="./quantumxgs20.png" alt="quantumxgs20 logo"></image>
-            <p style="font-style: italic; font-weight:200px; font-size:28px; color:white; ">Website is under development</p>
-            <p style="font-size: 96px; color: white; margin: 0; padding: 0px;">We are <span style="color:#fba800">Launching</span> soon</p>
-            <!-- <a style="font-size: 20px; color:Tomato;" href="home.html">Go to Website (Dev)</a> -->
+            <!-- <p style="font-style: italic; font-weight:200px; font-size:28px; color:white; ">Website is under development</p> -->
+            <p style="font-size: 92px; color: white; margin: 0; padding: 0px;">GS20 Official Website is now <span style="color:#fba800">Launched</span>.</p>
+            <!-- <a href="home.html"><button type="button" class="buttongtw">Continue to website</button></a>  -->
         </div> 
-
-        <div class="launch-time-2">
-            <div>
-                <p id="days1">00</p>
-                <span>Days</span>
-            </div>
-
-            <div>
-                <p id="hours1">00</p>
-                <span>Hours</span>
-            </div>
-
-            <div>
-                <p id="minutes1">00</p>
-                <span>Minutes</span>
-            </div>
-
-            <div>
-                <p id="seconds1">00</p>
-                <span>Seconds</span>
-            </div>
-
-            </div>  <!--end of launch time-->
-        </div> <!--end of center-->
-        <script>
-            var countDownDate1 = new Date("Aug 20, 2022 16:30:00").getTime();
-            var x1 = setInterval(function(){
-                var now = new Date().getTime();
-                var distance1 = countDownDate1 - now;
-
-                var days1 = Math.floor(distance1 / (1000 * 60 * 60 * 24));
-                var hours1 = Math.floor((distance1 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                var minutes1 = Math.floor((distance1 % (1000 * 60 * 60)) / (1000 * 60));
-                var seconds1 = Math.floor((distance1 % (1000 * 60)) / 1000);
-
-                document.getElementById("days1").innerHTML = days1;
-                document.getElementById("hours1").innerHTML = hours1;
-                document.getElementById("minutes1").innerHTML = minutes1;
-                document.getElementById("seconds1").innerHTML = seconds1;
-
-                if(distance1 < 0) {
-                    clearInterval(x1);
-                    document.getElementById("days1").innerHTML = days1;
-                    document.getElementById("hours1").innerHTML = hours1;
-                    document.getElementById("minutes1").innerHTML = minutes1;
-                    document.getElementById("seconds1").innerHTML = seconds1;
-                }
-            },  1000);
-        </script>
     </body>
 </html>

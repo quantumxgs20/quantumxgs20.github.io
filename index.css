@@ -66,7 +66,8 @@ body {
     background-color: #333;
     color: #efefef;
     position: relative;
-    margin-top: 150px;
+    margin-top: 50px;
+    margin-bottom: 0px;
     width: 100%;  
     display: flex;
 }
@@ -87,12 +88,12 @@ body {
 }
 
 .col-2 {
-  margin-left: 200px;
+  margin-left: 250px;
   margin-right: 200px;
 }
 
 .col-3 {
-  margin-right: 200px;
+  margin-right: 100px;
 }
 
 .col-1 a {
@@ -100,14 +101,21 @@ body {
   text-decoration: none;
   color: #efefef;
   margin-bottom:  10px;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .col-2 a {
   text-decoration: none;
   color: #efefef;
-  margin-bottom:  10px;
   font-size: 20px;
+}
+
+.col-2 p {
+  font-size: 20px;
+  color: #efefef;
+  text-decoration: none;
+  margin-bottom:  10px;
+  font-weight: 600;
 }
 
 .col-3 a {
@@ -215,9 +223,10 @@ body {
 }
 
 .ref {
+  text-decoration: none;
   text-align: center;
   font-family: Trebuchet MS;
-  font-size: 24px;
+  font-size: 20px;
   color: white;
   margin: 0;
   padding-top: 0px;
@@ -244,7 +253,7 @@ body {
 .sponsor-title {
   font-size: 36px;
   padding-left: 20px;
-  text-align: start;
+  text-align: center;
 }
 
 /*countdown timer*/
@@ -337,9 +346,23 @@ body {
   margin: 0;
 }
 
+img.quantumlogo {
+  max-height: 16vh;
+  margin-left: auto;
+  margin-right: 5px;
+  display: block;
+}
+
+img.triamlikitlogo {
+  max-height: 16vh;
+  margin-left: 5px;
+  margin-right: auto;
+  display: block;
+}
+
 img.mathlogik {
   max-height: 20vh;
-  padding-left: 40px;
+  padding-left: 60px;
   border-radius: 10px;
 }
 
@@ -348,12 +371,11 @@ img.quantumlogofront {
   padding: 10px;
 }
 
-img.quantumlogohome {
-  max-height: 7.5vh;
-  padding: 0px;
-  margin: 0;
-  position: relative;
-  right: 0;
+img.gslogo {
+  max-height: 24vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 img.newsbanner {
@@ -426,14 +448,14 @@ img.qtbookcv {
   color: white;
 }
 
-h1 {
+.modalContent h1 {
   margin-bottom: .2em;
   font-size: 36px;
   font-weight: 750;
   color: red;
 }
 
-p {
+.modalContent p {
   margin: .75em 0 1.5em;
   font-size: 24px;
   font-weight: bold;
@@ -477,3 +499,33 @@ p {
 .returnToProfile {text-align: center; margin:3em;}
 .returnToProfile a, .returnToProfile a:visited {color: #ddd;}
 .returnToProfile a:hover {color: #fff;}
+
+.buttongtw {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  font-family: TH SarabunPSK;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: rgb(50, 48, 198);
+  border-radius: 20px;
+}
+
+.buttongtw:hover {
+  background-color: #4317b0;
+  color: white;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
