@@ -170,7 +170,7 @@ body {
     font-weight: 520;
     color: white;
     font-family: TH SarabunPSK;
-    background-color: rgba(26, 157, 135, 0.4);
+    background-color: rgba(62, 27, 148, 0.4);
     border-radius: 40px;
     margin-left: 10px;
     margin-right: 10px;
@@ -195,9 +195,9 @@ body {
 /*quantumxgs20 title in home page*/
 .title {
     text-align: center;
-    font-family: Trebuchat MS;
-    font-size: 60px;
-    font-style: italic;
+    font-family: TH SarabunPSK;
+    font-size: 72px;
+    font-style: bold;
     font-weight: 600;
     color:white;
     margin: 0;
@@ -206,8 +206,8 @@ body {
 
 .title-2 {
   text-align: center;
-  font-family: Trebuchet MS;
-  font-size: 36px;
+  font-family:  TH SarabunPSK;
+  font-size: 48px;
   color: white;
   margin: 0;
   padding-top: 0px;
@@ -216,8 +216,8 @@ body {
 
 .title-3 {
   text-align: left;
-  font-family: Trebuchet MS;
-  font-size: 24px;
+  font-family:  TH SarabunPSK;
+  font-size: 36px;
   color: white;
   margin: 0;
 }
@@ -264,8 +264,8 @@ body {
 
 .content{
     width: 100%;
-    display:flex;
-    justify-content:center;
+    display: flex;
+    justify-content: center;
     flex-direction: column;
     color: white;
 }
@@ -350,6 +350,7 @@ img.quantumlogo {
   max-height: 16vh;
   margin-left: auto;
   margin-right: 5px;
+  margin-top : 10px;
   display: block;
 }
 
@@ -357,13 +358,73 @@ img.triamlikitlogo {
   max-height: 16vh;
   margin-left: 5px;
   margin-right: auto;
+  margin-top: 10px;
   display: block;
 }
 
-img.mathlogik {
+img.ondemand {
   max-height: 20vh;
-  padding-left: 60px;
+  margin-left: 20px;
   border-radius: 10px;
+  background-color: white;
+  background-position: center center;
+}
+
+img.beersocial {
+  max-height: 28vh;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-position: center center;
+}
+
+img.upbrain {
+  max-height: 32vh;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-position: center center;
+}
+
+img.unionagriphar {
+  max-height: 24vh;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-position: center center;
+}
+
+img.ccp {
+  max-height: 20vh;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-position: center center;
+}
+
+img.bkn {
+  max-height: 24vh;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-position: center center;
+}
+
+img.mogca {
+  max-height: 24vh;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-position: center center;
+}
+
+img.biooui {
+  max-height: 20vh;
+  margin-left: 20px;
+  border-radius: 10px;
+  background-color: white;
+  background-position: center center;
+}
+
+img.kns {
+  max-height: 24vh;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-position: center center;
 }
 
 img.quantumlogofront {
@@ -380,21 +441,19 @@ img.gslogo {
 
 img.newsbanner {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 20px;
   width: 80%;
   padding-top: 30px;
 }
 
 img.newsbannersq {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 20px;
   width: 35%;
   padding-top: 30px;
 }
 
-img.qtbookcv {
+img.qtbookcv1 {
   display: flex;
   max-height: 72vh;
   padding-top: 10px;
@@ -403,6 +462,17 @@ img.qtbookcv {
   align-items: center;
   justify-content: center;
 }
+
+img.qtbookcv2 {
+  display: flex;
+  max-height: 72vh;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
 
 .googleforms {
   align-items: center;
@@ -528,4 +598,40 @@ img.qtbookcv {
 .column {
   flex: 33.33%;
   padding: 5px;
+}
+
+.card {
+  background-image: url(./website_bg_new.jpg);
+  border-radius: 15px 15px 15px 15px;
+  width: 1024px;
+  height: 420px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  position: relative;
+  left: 140px;
+  top: 10px;
+}
+
+.orderbutton {
+  border: none;
+  color: white;
+  align-items: center;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  font-family: TH SarabunPSK;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: rgb(111, 109, 204);
+  border-radius: 20px;
+  position: relative;
+  left: 200px;
+  top: 40px;
+
+}
+
+.orderbutton:hover {
+  background-color: rgb(91, 91, 149)
 }
