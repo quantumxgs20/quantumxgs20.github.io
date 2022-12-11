@@ -606,9 +606,9 @@ img.qtbookcv2 {
   width: 1024px;
   height: 420px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  position: relative;
   left: 140px;
-  top: 10px;
+  top: 20px;
+  position: relative;
 }
 
 .orderbutton {
@@ -624,7 +624,7 @@ img.qtbookcv2 {
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
-  background-color: rgb(111, 109, 204);
+  background-color: rgb(61, 61, 210);
   border-radius: 20px;
   position: relative;
   left: 200px;
@@ -632,6 +632,6 @@ img.qtbookcv2 {
 
 }
 
-.orderbutton:hover {
-  background-color: rgb(91, 91, 149)
+.orderbutton :hover {
+  background-color: rgb(61, 61, 150)
 }
