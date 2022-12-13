@@ -13,6 +13,7 @@ body {
     background-color: #071740;
     overflow: hidden;
     position: sticky;
+    z-index: 1;
     top : 0;
     left: 0;
     margin : 0;
@@ -457,7 +458,7 @@ img.qtbookcv1 {
   display: flex;
   max-height: 72vh;
   padding-top: 10px;
-  padding-left: 250px;
+  padding-left: 40px;
   padding-bottom: 40px;
   align-items: center;
   justify-content: center;
@@ -469,15 +470,25 @@ img.qtbookcv2 {
   padding-top: 10px;
   padding-left: 20px;
   padding-bottom: 40px;
+  padding-right: 15px;
   align-items: center;
   justify-content: center;
 }
 
-
-.googleforms {
+img.qtbookcv3 {
+  display: flex;
+  max-height: 72vh;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 40px;
+  padding-right: 40px;
   align-items: center;
   justify-content: center;
-  display: flex;
+}
+
+img.giftedbio {
+  display: block;
+  
 }
 
 #modalOverlay {
@@ -629,9 +640,8 @@ img.qtbookcv2 {
   position: relative;
   left: 200px;
   top: 40px;
-
 }
 
-.orderbutton :hover {
+.orderbutton:hover {
   background-color: rgb(61, 61, 150)
 }
