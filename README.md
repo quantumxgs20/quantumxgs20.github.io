@@ -25,7 +25,7 @@
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/quantumxgs20/quantumxgs20.github.io/issues). You can also take a look at the [contributing guide](https://github.com/quantumxgs20/quantumxgs20.github.io/blob/main/CONTRIBUTING.md).
+Issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/quantumxgs20/quantumxgs20.github.io/issues). You can also take a look at the [contributing guide](https://github.com/quantumxgs20/quantumxgs20.github.io/blob/main/CONTRIBUTING.md).
 
 ## Show your support
 
