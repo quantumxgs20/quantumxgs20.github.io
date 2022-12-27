@@ -100,11 +100,61 @@
             </p>
         </div>
         <div style="height: 50px;"></div>
+        <!--------------------------------------------------------------------------------------------->
+        <div class="content">
+            <div style="height: 80px;"></div>
+            <div>Countdown วันสอบมหิดลวิทยานุสรณ์ รอบสอง</div>
+            <div>14 มกราคม 2566</div>
+            <div class="launch-time">
+                <div>
+                    <p id="days4">00</p>
+                    <span>Days</span>
+                </div>
+                <div>
+                    <p id="hours4">00</p>
+                    <span>Hours</span>
+                </div>
+                <div>
+                    <p id="minutes4">00</p>
+                    <span>Minutes</span>
+                </div>
+                <div>
+                    <p id="seconds4">00</p>
+                    <span>Seconds</span>
+                </div>
+            </div>
+        
+        </div>
+        <script>
+            var countDownDate4 = new Date("Jan 14, 2023 08:30:00").getTime();
+            var x4 = setInterval(function(){
+                var now = new Date().getTime();
+                var distance4= countDownDate4 - now;
+            
+                var days4 = Math.floor(distance4 / (1000 * 60 * 60 * 24));
+                var hours4 = Math.floor((distance4 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes4 = Math.floor((distance4 % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds4 = Math.floor((distance4 % (1000 * 60)) / 1000);
+            
+                document.getElementById("days4").innerHTML = days4;
+                document.getElementById("hours4").innerHTML = hours4;
+                document.getElementById("minutes4").innerHTML = minutes4;
+                document.getElementById("seconds4").innerHTML = seconds4;
+                
+                if(distance4 < 0) {
+                    clearInterval(x4);
+                    document.getElementById("days4").innerHTML = days4;
+                    document.getElementById("hours4").innerHTML = hours4;
+                    document.getElementById("minutes4").innerHTML = minutes4;
+                    document.getElementById("seconds4").innerHTML = seconds4;
+                }
+            }, 1000);
+        </script>
     <!----------------------------------------------------------------------------------------------------->
         <div class="content" >
             <div style="height: 80px;"></div>
             <div>Countdown วันปิดรับสมัครรอบโควตาจังหวัด</div>
-            <div>27 มกราคม 2565</div>
+            <div>27 มกราคม 2566</div>
             <div class="launch-time">
                 <div>
                     <p id="days1">00</p>
@@ -202,7 +252,7 @@
     <!----------------------------------------------------------------------------------------------------->
     <div class="content">
         <div style="height: 80px;"></div>
-        <div>Countdown วันสอบเตรียมอุดมศึกษา</div>
+        <div>Countdown วันสอบเตรียมอุดมศึกษา (D-Day)</div>
         <div>4 มีนาคม 2566</div>
         <div class="launch-time">
             <div>
